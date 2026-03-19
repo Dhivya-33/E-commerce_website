@@ -5,6 +5,7 @@ import { productAPI, categoryAPI } from '../services/api';
 const Home = () => {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchProducts();
@@ -17,6 +18,8 @@ const Home = () => {
       setProducts(response.data.slice(0, 6));
     } catch (error) {
       console.error('Error fetching products:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -37,6 +40,16 @@ const Home = () => {
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
+
+      {/* Loading Banner */}
+      {loading && (
+        <div className="fixed top-20 left-0 right-0 z-40 flex justify-center">
+          <div className="glass-card px-6 py-3 flex items-center gap-3 shadow-xl">
+            <div className="w-5 h-5 border-4 border-purple-500 border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-gray-700 font-semibold">Loading products... (server waking up, please wait 30s) ☕</p>
+          </div>
+        </div>
+      )}
 
       {/* Hero Section with Animations */}
       <div className="glass-card p-16 mb-12 text-center relative overflow-hidden bounce-in spotlight shadow-2xl">
