@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "mmlx9lagja44388u74m",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "$2a$10$fc52nk99nMAf3AA9WibyXO6NSUTKvwCco3wHUsnVrBJr1RK3wojN2",
+    "role": "admin",
+    "createdAt": "2026-03-11T10:54:46.024Z"
+  },
+  {
+    "_id": "mmlx9lagyw2lviumzb",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "$2a$10$OpMds468BIneJCnnrWmPqeMlmJlykQ0Lcy2M9EfoysgGZhKGHXseK",
+    "role": "user",
+    "createdAt": "2026-03-11T10:54:46.024Z"
+  },
+  {
+    "_id": "mmme90xp5mv94g6cl5l",
+    "name": "Dhivya",
+    "email": "dhivyarajasundaramm@gmail.com",
+    "password": "$2a$10$rWDJFcqcETcI5fImgnvgH.bT5etxYjRMWi/fP1YXNwZ8hdOagaAnq",
+    "role": "user",
+    "createdAt": "2026-03-11T18:50:13.121Z"
+  },
+  {
+    "_id": "mmmeawo474fec7o028",
+    "name": "Dhivya",
+    "email": "dhivya28rs@gmail.com",
+    "password": "$2a$10$iCKO6WTnoy16hB6W/DJ4XOBXOTTcyOk.ul5e97S8E.OiUIptvbfz2",
+    "role": "user",
+    "createdAt": "2026-03-11T18:51:40.900Z"
+  }
+]

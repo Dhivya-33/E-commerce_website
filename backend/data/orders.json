@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "mmlzulq6y0ebyqxsg9",
+    "userId": "mmluydk41j90tezbv0j",
+    "products": [
+      {
+        "product": "mmlx9laitp17x4wkkz",
+        "quantity": 2,
+        "price": 1115
+      }
+    ],
+    "totalAmount": 2230,
+    "shippingAddress": {
+      "street": "kk",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T12:07:05.598Z"
+  },
+  {
+    "_id": "mmm1qpg3g2nzxb0v05",
+    "userId": "mmluydk41j90tezbv0j",
+    "products": [
+      {
+        "product": "mmlx9laimkzcuxv02sk",
+        "quantity": 1,
+        "price": 3876
+      }
+    ],
+    "totalAmount": 3876,
+    "shippingAddress": {
+      "street": "asdfghjkm",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T13:00:03.027Z"
+  },
+  {
+    "_id": "mmm1rx4qd506dn2xjzq",
+    "userId": "mmluydk41j90tezbv0j",
+    "products": [
+      {
+        "product": "mmlx9laivfn91hx6b",
+        "quantity": 1,
+        "price": 3036
+      }
+    ],
+    "totalAmount": 3036,
+    "shippingAddress": {
+      "street": "asdfghjkm",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T13:00:59.642Z"
+  },
+  {
+    "_id": "mmmdksyf0kglwzqui9h",
+    "userId": "mmluydk41j90tezbv0j",
+    "products": [
+      {
+        "product": "prod0015",
+        "quantity": 1,
+        "price": 2280
+      }
+    ],
+    "totalAmount": 2280,
+    "shippingAddress": {
+      "street": "asdfghjkm",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T18:31:23.034Z"
+  },
+  {
+    "_id": "mmmec9v7dxbdc6vdgck",
+    "userId": "mmmeawo474fec7o028",
+    "products": [
+      {
+        "product": "prod0013",
+        "quantity": 1,
+        "price": 2960
+      }
+    ],
+    "totalAmount": 2960,
+    "shippingAddress": {
+      "street": "asdfghjkm",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T18:52:44.659Z"
+  },
+  {
+    "_id": "mmmef9frbmuzxqij1jq",
+    "userId": "mmmeawo474fec7o028",
+    "products": [
+      {
+        "product": "prod0004",
+        "quantity": 1,
+        "price": 1400
+      }
+    ],
+    "totalAmount": 1400,
+    "shippingAddress": {
+      "street": "asdfghjkm",
+      "city": "coimbatore",
+      "state": "sdefgrtol",
+      "zipCode": "adsfdgfhgj",
+      "country": "edfgh"
+    },
+    "orderStatus": "pending",
+    "createdAt": "2026-03-11T18:55:04.071Z"
+  }
+]
