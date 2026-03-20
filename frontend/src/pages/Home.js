@@ -10,6 +10,11 @@ const Home = () => {
   useEffect(() => {
     fetchProducts();
     fetchCategories();
+    // Keep backend alive by pinging it
+    const ping = setInterval(() => {
+      fetch('https://styleaura-backend.onrender.com/').catch(() => {});
+    }, 14 * 60 * 1000); // every 14 minutes
+    return () => clearInterval(ping);
   }, []);
 
   const fetchProducts = async () => {
